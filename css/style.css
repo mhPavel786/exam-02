@@ -1,0 +1,322 @@
+/*=====================
+
+Project name :
+Designer     : MH Pavel
+email        : mhpavel786@gmail.com
+========================*/
+/* Documentation
+
+>>>Section<<<
+
+1.Header
+2.Hero section
+3.Fusce at
+4.Facilisis          
+5.Ante donec          
+6.Blandit rhoncus          
+7.Placerat
+7.Footer
+
+=========================*/
+
+
+
+/* basic setup */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 4.2rem;
+    font-weight: 600;
+}
+h2{
+    
+}
+h3{
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+h4{
+    font-size: 3.4rem;
+    font-weight: 400;
+}
+p{
+    color: #adadad;
+}
+section{
+    padding: 4rem 0;
+}
+.btn{
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    border: 1px solid transparent;
+    background: #99c50a;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: .4rem;
+}
+.btn-outline{
+    background: none;
+    border : 1px solid #ccc;
+    border-radius: 8px; color: #111;
+}
+.btn-1{
+    background: #26a6d1;
+}
+
+/* header*/
+nav{
+    padding: 1.5rem 0!important;
+    background: #fff!important;
+}
+nav ul li{
+    margin-left: 1.5rem;
+}
+nav ul li a{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #adadad;
+}
+
+/*hero-section*/
+
+.hero-section{
+    background-image: url('../img/icrowdme-PSD---cssauthor.png');
+    background-size: cover;
+    background-position: center top;
+    padding-top: 28rem;
+    padding-bottom: 25rem;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-section .btn-hero{
+    margin-top: 3rem;
+}
+
+/* work-section*/
+.work-section{
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.work-section .box{
+    width: 80%;
+    margin: 0 auto;
+}
+.work-section h2{
+    font-size: 3.4rem;
+    line-height: 1.4;
+    font-weight: 600;
+    margin: 3rem 0;
+    color: #515151;
+}
+.work-section p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+}
+.work-section p:last-child{
+    margin-bottom: 0;
+}
+/*portfolio*/
+.portfolio h3{
+    margin-bottom: 3rem;
+}
+.portfolio p{
+    font-size: 1.6rem;
+}
+.portfolio .btn-1{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.portfolio .properties{
+    background: #e2f8ff;
+    padding: 3rem;
+}
+.portfolio .buyer{
+    padding: 3rem;
+    background: #f5f9eb;
+}
+
+/* featured*/
+.featured .button{
+    text-align: right;
+} 
+.featured h3{
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+}
+.featured  p{
+    font-size: 1.6rem;
+}
+.card-section {
+    margin-top: 2.5rem;
+}
+.card-section .img-box{
+    position: relative;
+}
+.card-section .img-box .dis{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+.card-section .img-box .dis span{
+    background: #26a6d1;
+    display: inline-block;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    color: #fff;
+    border-radius: 5px;
+}
+.card-section .action{
+    display: flex;
+    justify-content: space-between;
+}
+.card-section .action span{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.act-btn{
+    font-size: 1.4rem;
+    padding: 1rem 3rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    color: #111;
+}
+.act-btn i{
+    color: #add136
+}
+footer{
+    padding: 3rem 0;
+}
+footer p{
+    font-size: 1.6rem;
+}
+
+/* media query*/
+
+@media (min-width:0px) and (max-width:480px){
+    nav{
+        padding: 1rem 0!important;
+    }
+    .hero-section {
+        padding-top: 12rem;
+        padding-bottom: 6rem;
+    }
+    h1{
+        font-size: 3rem;
+        line-height: 1.2;
+        margin: 0;
+    }
+    h4{
+        font-size: 2.2rem;
+        margin: 0;
+    }
+    
+    .btn{
+        padding: .8rem 2rem;
+        font-size: 1.2rem;
+    }
+    section{
+        padding: 2rem 0;
+    }
+    .work-section{
+        padding: 2rem 0
+    }
+    .work-section .box{
+        width: 100%;
+    }
+    .work-section h2{
+        font-size: 2.6rem;
+        margin:  0;
+        line-height: 1.1;
+        margin-bottom: 1rem;
+    }
+    .work-section p{
+        text-align: justify;
+        margin-bottom: 1.5rem;
+    }
+    .portfolio h3{
+        margin-bottom: 1.5rem;
+    }
+    .portfolio .btn-1{
+        margin-top: 1rem;
+    }
+    .featured .button{
+        text-align: left;
+    }
+    footer{
+        padding: 1.5rem 0;
+    }
+}
+
+@media (min-width:576.1px) and (max-width:767px){
+    .hero-section {
+        padding-top: 12rem;
+        padding-bottom: 6rem;
+    }
+    h1{
+        font-size: 2.6rem;
+        letter-spacing: 0;
+        line-height: 1.2;
+        margin: 0;
+    }
+    h4{
+        font-size: 2.2rem;
+        margin: 0;
+    }
+
+    .btn{
+        padding: .8rem 2rem;
+        font-size: 1.2rem;
+    }
+     section{
+        padding: 2rem 0;
+    }
+    .work-section{
+        padding: 2rem 0
+    }
+    .work-section .box{
+        width: 100%;
+    }
+     .work-section h2{
+        font-size: 2.6rem;
+        margin:  1rem 0;
+        line-height: 1.1;
+        margin-bottom: 1rem;
+    }
+    .work-section p{
+        text-align: justify;
+        margin-bottom: 1.5rem;
+    }
+    .portfolio h3{
+        margin-bottom: 1.5rem;
+    }
+    .card-section .img-box .dis span{
+   
+    padding: .5rem;
+    
+}
+    .card-section .card p{
+        font-size: 1.4rem;
+    }
+    footer{
+        padding: 1.5rem 0;
+    }
+}
